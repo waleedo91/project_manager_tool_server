@@ -6,6 +6,8 @@ import io.waldosworld.ppmtool.repositories.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 
 @Service
 public class ProjectService {
@@ -33,5 +35,9 @@ public class ProjectService {
              }
 
         return project;
+    }
+
+    public List<Project> findAllProjects(){
+        return projectRepository.findAll();
     }
 }
