@@ -1,4 +1,4 @@
-package io.waldosworld.ppmtool.domain;
+package io.waldosworld.ppmtool.models;
 
 import javax.persistence.*;
 import java.util.Date;

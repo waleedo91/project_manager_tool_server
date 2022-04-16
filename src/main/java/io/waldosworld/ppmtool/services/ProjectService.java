@@ -1,6 +1,6 @@
 package io.waldosworld.ppmtool.services;
 
-import io.waldosworld.ppmtool.domain.Project;
+import io.waldosworld.ppmtool.models.Project;
 import io.waldosworld.ppmtool.repositories.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
